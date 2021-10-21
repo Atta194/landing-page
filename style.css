@@ -1,3 +1,7 @@
+body{
+  margin: 0px;
+  padding:0px;
+}
 /* Section-1....(Header-Section)*/
 .header{
   width: 100vw;
