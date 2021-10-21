@@ -1,0 +1,182 @@
+/* Section-1....(Header-Section)*/
+.header{
+  width: 100vw;
+  height: 450px;
+  background-color: #1f2937; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.top{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 70px;
+  margin: 0px 70px;
+}
+.logo{
+  display:flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.top, .links{
+  justify-content: space-between;
+  float: right;
+  align-items:center;
+  display: flex;
+}
+ul{
+  list-style: none;
+  gap: 50px;
+}
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;  
+}
+.home{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+  margin: 20px 70px;
+}
+.call-of-action{
+  flex-wrap: wrap;
+  width: 500px;
+}
+.h-title{
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  width: 200px;
+}
+.h-text{
+  font-size: 18;
+  color: #E5E7EB;
+  padding: 10px 0px;
+}
+button{
+  background-color: #3882F6;
+  color: white;
+  border-radius: 6px;
+  padding: 4px 20px;
+}
+.place-holder{
+  width: 500px;
+  height: 231px;
+}
+/*  Section-2.......Information Section*/
+.informational-section{
+  text-align: center;
+  width: 100vw;
+  height: 400px;
+}
+.title {
+  margin: 40px 0px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 62px;
+}
+.info {
+  max-width: 190px;
+  font-size: 18px;
+  color: #4f4f50;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .info img{
+  border: brown solid 2px;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+}
+/*     Section-3.....Some Quots are gose here...*/
+.quotes-section{
+  width: 100vw;
+  height: 350px;
+  background-color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goodreads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 50px 70px;
+}
+.quotation {
+  max-width: 1000px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family:sans-serif;
+  color: #1F2937;
+  margin: 10px 70px;
+}
+pre{
+  float: right;
+}
+/*  Section-4 ......Call to action botton gose here*/
+.cta-section{
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.call-to-action{
+  flex-wrap: wrap;
+  width: 950px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3882F6;
+  border-radius: 4px;
+  padding: 30px;
+  margin: 30px 70px;
+
+}
+.heading{
+  font-size:24px;
+  font-weight: 600;
+  color: #1F2937;
+  width: 400px;
+}
+.access{
+  display: flex;
+  width: 800px;
+  font-size: 18px;
+  text-align: left;
+  font-family:sans-serif;
+  gap: 130px;
+  color: #1F2937;
+}
+/*..........Footer............*/
+.footer{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.foot{
+  display: flex;
+  text-align: center;
+  color: #E5E7EB;
+  font-size: 18px;
+}
